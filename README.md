@@ -1,7 +1,3 @@
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="right"  src="https://github-readme-stats.vercel.app/api?username=Mr-Camargo&count_private=true&theme=github_dark&show_icons=true" width="450" alt="My GitHub Stats" />
-</a>
-
 # Hello there 👋
 
 My name is Sebastián Camargo, although some people call me Camargo or Camargou.
