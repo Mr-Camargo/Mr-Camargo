@@ -1,0 +1,62 @@
+body {
+    background-color: black;
+}
+
+html body, a {
+    color: white;
+    font-family: "Helvetica Neue";
+}
+
+pre {
+    color: white;
+}
+
+.webLink:hover {
+    text-decoration: underline !important;
+}
+
+.webLink {
+    text-decoration: none !important;
+}
+
+.header {
+    text-align: center;
+}
+
+.mainLink{
+    text-align: center;
+    float:left;
+    display:inline;
+    width: 50%; 
+    font-size: 22px;
+}
+
+.isOnFooterPage {
+    color: #424B50;
+}
+
+.footerLine {
+    width: 50%; 
+    height: 3px; 
+    border: none; 
+    background-color: #545B67;
+}
+
+.basicLine {
+     width: 85%;
+     height: 5px;
+     border: none;
+     background-color: white;
+}
+
+.centerImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font-family: "Helvetica Neue";
+}
