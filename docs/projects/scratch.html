@@ -7,16 +7,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sebastian's Scratch Projects</title>
     <link rel="stylesheet" href="../css/master.css">
-    <link rel="stylesheet" href="../css/projects.css">
+    <link rel="stylesheet" href="../css/proyectPage.css">
+    <style>
+        #hiddenBox {
+            visibility: hidden;
+            width: 0px;
+            height: 0px;
+        }
+
+        @media screen and (max-width: 1024px) {
+            #scratchGame {
+                visibility: hidden;
+                width: 0px;
+                height: 0px;
+            }
+
+            #hiddenBox {
+                visibility: visible;
+                width: fit-content;
+                height: fit-content;
+            }
+        }
+    </style>
 </head>
 
 <body>
+    <a href="../projects.html" class="goBackLink">
+        <p>Go back to projects</p>
+    </a>
     <div class="header">
         <h1>Every masterpiece starts with an artist.</h1>
         <h2>And every artist starts with nothing.</h2>
     </div>
-    <img src="../media/projects/scratch/scratchBanner.png" class="centerImage" style="width: 50%;"
-        title="Scratch Banner" alt="A banner of the Scratch logo">
+    <img src="../media/projects/scratch/scratchBanner.png" class="centerImage thumbnail" title="Scratch Banner"
+        alt="A banner of the Scratch logo">
     <br>
     <div>
         <hr class="statusLine">
@@ -48,17 +72,17 @@
                 rel="noopener noreferrer">project
                 page</a>.</p>
     </div>
-    <div class="information"><iframe class="centerImage" src="https://scratch.mit.edu/projects/403807278/embed"
-            style="border-radius: 25px; display: block;" allowtransparency="true" width="485" height="402"
-            frameborder="0" scrolling="no" allowfullscreen></iframe>
+    <div class="information" id="scratchGame"><iframe class="centerImage"
+            src="https://scratch.mit.edu/projects/403807278/embed" style="border-radius: 25px; display: block;"
+            allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
     </div>
-    <footer>
-        <hr class="footerLine">
-        <a href="../index.html" class="webLink">Main page</a> | <a href="../experience.html" class="webLink">Experience
-            and projects</a> | <a href="info.html" class="webLink">Contact
-            Info</a> | <a href="../more.html" class="webLink">More About
-            Me</a>
-    </footer>
+    <div class="information" id="hiddenBox" style="background-color: grey; padding: 25px; border-radius: 25px;">
+        <p style="font-weight: 900; font-size: 2rem; text-align: center;">Oops! You can only play Poyo Bomber on a
+            computer, sorry!</p>
+    </div>
+    <a href="../projects.html" class="goBackLink">
+        <p>Go back to projects</p>
+    </a>
 </body>
 
 </html>

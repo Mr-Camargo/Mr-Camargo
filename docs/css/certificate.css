@@ -1,0 +1,123 @@
+.goBackAchievementsLink p {
+    text-align: center;
+    color: grey;
+}
+
+.goBackAchievementsLink {
+    text-decoration: none;
+}
+
+.goBackAchievementsLink:hover p {
+    text-align: center;
+    color: white;
+}
+
+.goBackAchievementsLink p:hover::before {
+    content: '← ';
+}
+
+.cetificatePageBox {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.thumbnail {
+    float: right;
+    width: 625px;
+    clear: both;
+}
+
+.certificatePageInformation {
+    text-align: left;
+}
+
+.certificatePageInformation h1 {
+    font-size: 30px;
+}
+
+.basicCertificateInformation h2 span {
+    text-decoration: underline dashed;
+}
+
+.basicCertificateInformation h2, h3, h4, h5, h6 {
+    font-weight: 550;
+}
+
+.basicCertificateInformation span {
+    font-weight: normal;
+}
+
+.buttonsCertificateInformation button {
+    border: none;
+    display: inline-block;
+    width: 25%;
+    font-size: 22px;
+    border-radius: 8px;
+}
+
+.buttonsCertificateInformation button {
+    cursor: pointer;
+}
+
+.buttonsCertificateInformation a { 
+    text-decoration: none;
+}
+
+.viewCertificateLink button {
+    background-color: #3a3e41;
+    padding: 5px;
+    color: white;
+}
+
+.viewCertificateLink:hover button {
+    background-color: #535a5f;
+}
+
+.viewCertificateLink button:hover::before {
+    content: "👀 ";
+}
+
+.verifyWorkLink button{
+    background-color: #008fff;
+    padding: 5px;
+    color: white;
+}
+
+.verifyWorkLink:hover button {
+    background-color: #0076d1;
+}
+
+.verifyWorkLink button:hover::after {
+    content: "  ✅";
+}
+
+.whiteSpace, .hidden {
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 1024px) {
+    .thumbnail {
+        width: 100%;
+    } 
+    .viewCertificateLink button {
+       width: 100%;
+    }
+    .verifyWorkLink button {
+        width: 100%;
+     }
+     .whiteSpace {
+        position: static;
+        clear: both;
+     }
+     .hidden {
+         visibility: visible;
+         clear: both;
+     }
+     .certificatePageInformation h1 {
+        text-align: center;
+    }
+    .whiteSpace, .hidden {
+        margin-bottom: 2em;
+        visibility: visible;
+    }
+  }

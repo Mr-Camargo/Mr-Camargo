@@ -1,0 +1,49 @@
+.certContainer {
+    width: 500px;
+    height: 400px;
+    overflow: auto;
+    display: flexbox;
+    text-align: center;
+    width: 50%;
+}
+
+.certContainer a {
+    text-decoration: none;
+}
+
+.certContainer a .hiddenText {
+    opacity: 0;
+    font-weight: 900;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.certContainer:hover a .hiddenText {
+    opacity: 1;
+}
+
+#whiteSpaceAfterAchievementHeader {
+    margin-bottom: 4em;
+}
+
+@media screen and (max-width: 1024px) {
+    .certContainer {
+      width: 100%;
+    } 
+    .whiteSpace {
+        margin-bottom: 1em;
+    }
+
+    .certContainer a .hiddenText {
+        opacity: 1;
+    }
+    #whiteSpaceAfterAchievementHeader {
+        margin-bottom: 2em;
+    }
+    .header {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+  }

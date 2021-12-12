@@ -57,7 +57,7 @@ footer {
     text-align: center;
     color: grey;
 }
-    
+
 .goBackLink {
         text-decoration: none;
 }
@@ -69,4 +69,14 @@ footer {
     
 .goBackLink p:hover::before {
         content: '← ';
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+    .goBackLink p::before {
+        content: '← ';
+    }
 }
