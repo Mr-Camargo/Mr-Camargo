@@ -1,8 +1,21 @@
+const style = ` #buttonContainer button {
+        background-color: #008fff;
+        cursor: pointer;
+    }
+    
+    #buttonContainer button:hover {
+        background-color: #0076d1;
+    }
+}`;
+
+const styleSheet = document.createElement("style");
+styleSheet.innerText = style;
+document.head.appendChild(styleSheet);
+
 function copyPGPKey() {
 
     navigator.clipboard.writeText(`-----BEGIN PGP PUBLIC KEY BLOCK-----
     Comment: 0427 9866 F112 0AD2 256E  85A0 D8AC 3464 D7D3 87AB
-    Comment: Sebastián Camargo <camargo@tutamail.com>
     
     xsDNBGEPRXsBDADmjambAPOcif7Tk0xYCArX/er5tvjCHPGPUCb0j+keXnRi/OTq
     h4lVZCpinct4Gv+8Q+Oyb53WM3ONDHehDMxDQ5O/voLBOmK8pAv9RxfBzxuMMUcx

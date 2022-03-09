@@ -18,9 +18,41 @@
     font-size: 25px;
 }
 
+#mailtoLink {
+    text-decoration: none;
+    animation-name: mailAddressMain;
+    animation-duration: 3s;
+    cursor: default;
+}
+
+#mailtoLink span {
+    animation-name: mailAddressSpan;
+    animation-duration: 3s;
+}
+
+@keyframes mailAddressMain {
+    0%   {color: black;}
+    100%  {color: white;}
+}
+
+@keyframes mailAddressSpan {
+    0%   {color: black;}
+    100%  {color: gray;}
+}
+
 #pgpKeyLink {
     text-align: center;
     font-size: 12px;
+}
+
+#pgpKeyLink a {
+    animation-name: pgpKey;
+    animation-duration: 5s;
+}
+
+@keyframes pgpKey {
+    0%   {color: black;}
+    100%  {color: white;}
 }
 
 @media screen and (max-width: 1024px) {
@@ -53,6 +85,7 @@
     position: relative;
     height: 50px;
     margin-top: -10px;
+    cursor: default;
 }
 #buttonContainer button {
     margin: 0;
@@ -60,15 +93,13 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #008fff;
+    /* Background color for JS-Enabled devices (default) can be modified at js/copyPGPKey.js */
+    background-color: #0091ff44;
+    cursor: not-allowed;
+    /* End of not JS-Enabled devices rules */
     border: none;
-    cursor: pointer;
     border-radius: 5px;
     padding: 5px;
-}
-
-#buttonContainer button:hover {
-    background-color: #0076d1;
 }
 
 #buttonContainer button span {
