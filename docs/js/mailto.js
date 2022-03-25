@@ -9,7 +9,7 @@ document.head.appendChild(styleSheet);
 
 // Start of code to encode the address
 var emailLink = document.getElementById('mailtoLink'); //or grab it by tagname etc
-emailLink.href = "javascript:decryptEmail('Y2FtYXJnb0B0dXRhbWFpbC5jb20')"
+emailLink.href = "javascript:decryptEmail('c2ViYXNAc2xhc2gtc3R1ZGlvLmNvbQ==')"
 
 function decryptEmail(encoded) {
 

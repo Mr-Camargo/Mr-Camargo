@@ -60,6 +60,10 @@
         margin-left: 5%;
         margin-right: 5%;
     }
+    #mail {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
 }
 
 /* Starting here, these styles are supposed for docs/contact/pgp-key.html */
