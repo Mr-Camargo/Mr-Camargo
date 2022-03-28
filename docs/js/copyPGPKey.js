@@ -15,6 +15,8 @@ document.head.appendChild(styleSheet);
 function copyPGPKey() {
 
     navigator.clipboard.writeText(`-----BEGIN PGP PUBLIC KEY BLOCK-----
+Comment: 6B52 EB15 E95F B999 79D8  4409 F765 2166 54FC CA3F
+Comment: Sebastián Camargo <sebas@slash-studio.com>
 xsFNBGImscsBEAD2hyHJ0FyDL8+wnpfPEn5nsrS7BjWZzCdlDN4rA3XLANmTbzWs
 grx6tXIeO+pUYfbj2ztpXgzSjHqgbHLTaDdWMSmVfbFCO64xyQqzA3PNAF4ywnJe
 L78pDDx22ZKbu0uXtaYkcRVsgMwYLpYM/4lje8sE3F+qa/c+NolaP6/DHwyRyfEo
