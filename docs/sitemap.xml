@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://mr-camargo.github.io/Mr-Camargo/</loc>
+  <lastmod>2022-04-04T18:44:22+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://mr-camargo.github.io/Mr-Camargo/projects.html</loc>
+  <lastmod>2022-04-04T18:44:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mr-camargo.github.io/Mr-Camargo/achievements.html</loc>
+  <lastmod>2022-04-04T18:44:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mr-camargo.github.io/Mr-Camargo/contact/info.html</loc>
+  <lastmod>2022-04-04T18:44:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mr-camargo.github.io/Mr-Camargo/more.html</loc>
+  <lastmod>2022-04-04T18:44:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mr-camargo.github.io/Mr-Camargo/projects/mirayoki.html</loc>
+  <lastmod>2022-04-04T18:44:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mr-camargo.github.io/Mr-Camargo/projects/scratch.html</loc>
+  <lastmod>2022-04-04T18:44:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mr-camargo.github.io/Mr-Camargo/index.html</loc>
+  <lastmod>2022-04-04T18:44:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mr-camargo.github.io/Mr-Camargo/achievements/certificates/G22TSBKYRQBH.html</loc>
+  <lastmod>2022-04-04T18:44:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mr-camargo.github.io/Mr-Camargo/achievements/certificates/RKVVDDYRRFKH.html</loc>
+  <lastmod>2022-04-04T18:44:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mr-camargo.github.io/Mr-Camargo/contact/pgp-key.html</loc>
+  <lastmod>2022-04-04T18:44:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mr-camargo.github.io/Mr-Camargo/media/certificates/G22TSBKYRQBH/G22TSBKYRQBH.pdf</loc>
+  <lastmod>2022-04-04T18:44:22+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://mr-camargo.github.io/Mr-Camargo/media/certificates/RKVVDDYRRFKH/RKVVDDYRRFKH.pdf</loc>
+  <lastmod>2022-04-04T18:44:22+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
