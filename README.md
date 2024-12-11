@@ -1,11 +1,7 @@
-# Hey! 🫰🏼
+# Hello! 👋🏼
 
-My name is **Sebastián Camargo**!
+**I am a teenager born in Mexico** 🇲🇽 seeking to reshape learning opportunities for all around the globe through [Institute Alterna](https://alterna.dev), an organization I founded based on my experiences of self-paced learning beyond the classroom.
 
-Simply a Mexican 🇲🇽 teenager who is looking to ✨*change the world*✨ using the power of coding and education.
+One of my favorite aspects of computer science is cybersecurity. Isn't it fascinating that the same systems that hold information also protect it? I also enjoy 🚴🏼‍♂️ cycling, 🎛️ EDM, and 🍎 everything Apple.
 
-My passion is to advocate for high-quality, open, free, and accessible education all around the globe. 🌎
-
-That's why I founded [Institute Alterna](https://alterna.dev): to enable anyone to enjoy learning about computer science wherever they find themselves. I also care deeply about data privacy, and I'm into everything Apple! 🍎 
-
-Learn more about my work by [visiting my website](https://camargou.dev) and [checking out my LinkedIn](https://www.linkedin.com/in/camargou).
+Learn more about me and my work by [visiting my website](https://camargomar.in), or [connect with me on LinkedIn](https://linkedin.com/in/camargou) :)
